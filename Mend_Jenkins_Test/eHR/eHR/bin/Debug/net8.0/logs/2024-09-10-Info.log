@@ -1,0 +1,24 @@
+2024-09-10 09:28:14.6659
+eHR.Common.Logger.Write
+System.DivideByZeroException: Attempted to divide by zero.
+   at eHR.Dao.CodeDao.MapCodeDataToList(DataTable dt)
+   at eHR.Dao.CodeDao.GetCodeData(String type)
+   at eHR.Service.CodeService.GetCodeData(String type) in C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Service\CodeService.cs:line 20
+   at eHR.Controllers.EmployeeController.Index()
+
+2024-09-10 09:32:32.7146
+eHR.Common.Logger.Write
+System.DivideByZeroException: Attempted to divide by zero.
+   at eHR.Dao.CodeDao.MapCodeDataToList(DataTable dt)
+   at eHR.Dao.CodeDao.GetCodeData(String type)
+   at eHR.Service.CodeService.GetCodeData(String type) in C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Service\CodeService.cs:line 20
+   at eHR.Controllers.EmployeeController.Index()
+
+2024-09-10 09:32:56.6925
+eHR.Common.Logger.Write
+System.DivideByZeroException: Attempted to divide by zero.
+   at eHR.Dao.CodeDao.MapCodeDataToList(DataTable dt)
+   at eHR.Dao.CodeDao.GetCodeData(String type)
+   at eHR.Service.CodeService.GetCodeData(String type) in C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Service\CodeService.cs:line 20
+   at eHR.Controllers.EmployeeController.Index()
+

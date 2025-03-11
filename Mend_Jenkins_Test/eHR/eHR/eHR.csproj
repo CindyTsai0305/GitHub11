@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\CodeService.cs" />
+    <Compile Remove="Models\Employee.cs" />
+    <Compile Remove="Models\EmployeeSearchArg.cs" />
+    <Compile Remove="Models\EmployeeService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="NLog.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\eHR.Common\eHR.Common.csproj" />
+    <ProjectReference Include="..\eHR.Model\eHR.Model.csproj" />
+    <ProjectReference Include="..\eHR.Service\eHR.Service.csproj" />
+  </ItemGroup>
+
+</Project>

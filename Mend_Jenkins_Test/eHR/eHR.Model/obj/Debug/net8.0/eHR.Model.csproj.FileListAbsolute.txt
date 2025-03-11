@@ -1,0 +1,55 @@
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Layer\eHR.Model\bin\Debug\net8.0\eHR.Model.deps.json
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Layer\eHR.Model\bin\Debug\net8.0\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Layer\eHR.Model\bin\Debug\net8.0\eHR.Model.pdb
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.AssemblyInfoInputs.cache
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.AssemblyInfo.cs
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.csproj.CoreCompileInputs.cache
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Layer\eHR.Model\obj\Debug\net8.0\refint\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.pdb
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Layer\eHR.Model\obj\Debug\net8.0\ref\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Model\bin\Debug\net8.0\eHR.Model.deps.json
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Model\bin\Debug\net8.0\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Model\bin\Debug\net8.0\eHR.Model.pdb
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.AssemblyInfoInputs.cache
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.AssemblyInfo.cs
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.csproj.CoreCompileInputs.cache
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Model\obj\Debug\net8.0\refint\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Model\obj\Debug\net8.0\eHR.Model.pdb
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\LogPOC\Layer\eHR.Model\obj\Debug\net8.0\ref\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Phase2\eHR.Model\bin\Debug\net8.0\eHR.Model.deps.json
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Phase2\eHR.Model\bin\Debug\net8.0\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Phase2\eHR.Model\bin\Debug\net8.0\eHR.Model.pdb
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Phase2\eHR.Model\obj\Debug\net8.0\eHR.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Phase2\eHR.Model\obj\Debug\net8.0\eHR.Model.AssemblyInfoInputs.cache
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Phase2\eHR.Model\obj\Debug\net8.0\eHR.Model.AssemblyInfo.cs
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Phase2\eHR.Model\obj\Debug\net8.0\eHR.Model.csproj.CoreCompileInputs.cache
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Phase2\eHR.Model\obj\Debug\net8.0\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Phase2\eHR.Model\obj\Debug\net8.0\refint\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Phase2\eHR.Model\obj\Debug\net8.0\eHR.Model.pdb
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Phase2\eHR.Model\obj\Debug\net8.0\ref\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Section2\eHR.Model\bin\Debug\net8.0\eHR.Model.deps.json
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Section2\eHR.Model\bin\Debug\net8.0\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Section2\eHR.Model\bin\Debug\net8.0\eHR.Model.pdb
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Section2\eHR.Model\obj\Debug\net8.0\eHR.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Section2\eHR.Model\obj\Debug\net8.0\eHR.Model.AssemblyInfoInputs.cache
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Section2\eHR.Model\obj\Debug\net8.0\eHR.Model.AssemblyInfo.cs
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Section2\eHR.Model\obj\Debug\net8.0\eHR.Model.csproj.CoreCompileInputs.cache
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Section2\eHR.Model\obj\Debug\net8.0\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Section2\eHR.Model\obj\Debug\net8.0\refint\eHR.Model.dll
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Section2\eHR.Model\obj\Debug\net8.0\eHR.Model.pdb
+C:\MyBox\SideProject\新人訓教材\Backend\Sample\Section2\eHR.Model\obj\Debug\net8.0\ref\eHR.Model.dll
+C:\MyBox\OneDrive\Share Folder\GSS\新人訓練\教材\Course6_BackEnd\Section2\Sample\eHR\eHR.Model\bin\Debug\net8.0\eHR.Model.deps.json
+C:\MyBox\OneDrive\Share Folder\GSS\新人訓練\教材\Course6_BackEnd\Section2\Sample\eHR\eHR.Model\bin\Debug\net8.0\eHR.Model.dll
+C:\MyBox\OneDrive\Share Folder\GSS\新人訓練\教材\Course6_BackEnd\Section2\Sample\eHR\eHR.Model\bin\Debug\net8.0\eHR.Model.pdb
+C:\MyBox\OneDrive\Share Folder\GSS\新人訓練\教材\Course6_BackEnd\Section2\Sample\eHR\eHR.Model\obj\Debug\net8.0\eHR.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyBox\OneDrive\Share Folder\GSS\新人訓練\教材\Course6_BackEnd\Section2\Sample\eHR\eHR.Model\obj\Debug\net8.0\eHR.Model.AssemblyInfoInputs.cache
+C:\MyBox\OneDrive\Share Folder\GSS\新人訓練\教材\Course6_BackEnd\Section2\Sample\eHR\eHR.Model\obj\Debug\net8.0\eHR.Model.AssemblyInfo.cs
+C:\MyBox\OneDrive\Share Folder\GSS\新人訓練\教材\Course6_BackEnd\Section2\Sample\eHR\eHR.Model\obj\Debug\net8.0\eHR.Model.csproj.CoreCompileInputs.cache
+C:\MyBox\OneDrive\Share Folder\GSS\新人訓練\教材\Course6_BackEnd\Section2\Sample\eHR\eHR.Model\obj\Debug\net8.0\eHR.Model.dll
+C:\MyBox\OneDrive\Share Folder\GSS\新人訓練\教材\Course6_BackEnd\Section2\Sample\eHR\eHR.Model\obj\Debug\net8.0\refint\eHR.Model.dll
+C:\MyBox\OneDrive\Share Folder\GSS\新人訓練\教材\Course6_BackEnd\Section2\Sample\eHR\eHR.Model\obj\Debug\net8.0\eHR.Model.pdb
+C:\MyBox\OneDrive\Share Folder\GSS\新人訓練\教材\Course6_BackEnd\Section2\Sample\eHR\eHR.Model\obj\Debug\net8.0\ref\eHR.Model.dll

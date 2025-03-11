@@ -1,0 +1,14 @@
+CITY	0001	Kirkland
+CITY	0002	London
+CITY	0003	NY
+CITY	0004	Redmond
+CITY	0005	Seattle
+CITY	0006	Tacoma
+COUNTRY	UK	United Kingdom
+COUNTRY	USA	United States of America
+GENDER	F	Female
+GENDER	M	Male
+TITLE	0001	CEO
+TITLE	0002	Sales Manager
+TITLE	0003	Sales Representative
+TITLE	0004	Vice President, Sales

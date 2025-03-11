@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2ADB58BC-8CBE-403E-9A91-E3002A2DBF3E}|eHR.Test\\eHR.Test.csproj|c:\\users\\cindy_hh_tsai\\desktop\\ehr\\ehr.test\\employeeextensiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ADB58BC-8CBE-403E-9A91-E3002A2DBF3E}|eHR.Test\\eHR.Test.csproj|solutionrelative:ehr.test\\employeeextensiontest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05879CF5-0047-4ECE-9C3A-EA712492E2F3}|eHR.Dao\\eHR.Dao.csproj|c:\\users\\cindy_hh_tsai\\desktop\\ehr\\ehr.dao\\employeedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05879CF5-0047-4ECE-9C3A-EA712492E2F3}|eHR.Dao\\eHR.Dao.csproj|solutionrelative:ehr.dao\\employeedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ADB58BC-8CBE-403E-9A91-E3002A2DBF3E}|eHR.Test\\eHR.Test.csproj|c:\\users\\cindy_hh_tsai\\desktop\\ehr\\ehr.test\\commontooltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ADB58BC-8CBE-403E-9A91-E3002A2DBF3E}|eHR.Test\\eHR.Test.csproj|solutionrelative:ehr.test\\commontooltest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ADB58BC-8CBE-403E-9A91-E3002A2DBF3E}|eHR.Test\\eHR.Test.csproj|c:\\users\\cindy_hh_tsai\\desktop\\ehr\\ehr.test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2ADB58BC-8CBE-403E-9A91-E3002A2DBF3E}|eHR.Test\\eHR.Test.csproj|solutionrelative:ehr.test\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A6B4AB-1A53-43EB-A314-51DEB99AEC15}|eHR\\eHR.csproj|c:\\users\\cindy_hh_tsai\\desktop\\ehr\\ehr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82A6B4AB-1A53-43EB-A314-51DEB99AEC15}|eHR\\eHR.csproj|solutionrelative:ehr\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2ADB58BC-8CBE-403E-9A91-E3002A2DBF3E}|eHR.Test\\eHR.Test.csproj|c:\\users\\cindy_hh_tsai\\desktop\\ehr\\ehr.test\\employeetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2ADB58BC-8CBE-403E-9A91-E3002A2DBF3E}|eHR.Test\\eHR.Test.csproj|solutionrelative:ehr.test\\employeetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93BBD582-5B4D-401C-9AB0-5511C20F88AC}|eHR.Service\\eHR.Service.csproj|c:\\users\\cindy_hh_tsai\\desktop\\ehr\\ehr.service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93BBD582-5B4D-401C-9AB0-5511C20F88AC}|eHR.Service\\eHR.Service.csproj|solutionrelative:ehr.service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80571936-7AF8-4D0B-B653-8A30C8C23426}|eHR.Common\\eHR.Common.csproj|c:\\users\\cindy_hh_tsai\\desktop\\ehr\\ehr.common\\stringtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80571936-7AF8-4D0B-B653-8A30C8C23426}|eHR.Common\\eHR.Common.csproj|solutionrelative:ehr.common\\stringtool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82A6B4AB-1A53-43EB-A314-51DEB99AEC15}|eHR\\eHR.csproj|c:\\users\\cindy_hh_tsai\\desktop\\ehr\\ehr\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82A6B4AB-1A53-43EB-A314-51DEB99AEC15}|eHR\\eHR.csproj|solutionrelative:ehr\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR\\appsettings.json",
+              "RelativeDocumentMoniker": "eHR\\appsettings.json",
+              "ToolTip": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR\\appsettings.json",
+              "RelativeToolTip": "eHR\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-19T06:00:27.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Test\\appsettings.json",
+              "RelativeDocumentMoniker": "eHR.Test\\appsettings.json",
+              "ToolTip": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Test\\appsettings.json",
+              "RelativeToolTip": "eHR.Test\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-24T10:08:43.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StringTool.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Common\\StringTool.cs",
+              "RelativeDocumentMoniker": "eHR.Common\\StringTool.cs",
+              "ToolTip": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Common\\StringTool.cs",
+              "RelativeToolTip": "eHR.Common\\StringTool.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T10:05:56.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommonToolTest.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Test\\CommonToolTest.cs",
+              "RelativeDocumentMoniker": "eHR.Test\\CommonToolTest.cs",
+              "ToolTip": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Test\\CommonToolTest.cs",
+              "RelativeToolTip": "eHR.Test\\CommonToolTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T09:59:19.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeTest.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Test\\EmployeeTest.cs",
+              "RelativeDocumentMoniker": "eHR.Test\\EmployeeTest.cs",
+              "ToolTip": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Test\\EmployeeTest.cs",
+              "RelativeToolTip": "eHR.Test\\EmployeeTest.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAIAwwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T09:59:19.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "eHR.Service\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Service\\EmployeeService.cs",
+              "RelativeToolTip": "eHR.Service\\EmployeeService.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T10:02:41.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeExtensionTest.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Test\\EmployeeExtensionTest.cs",
+              "RelativeDocumentMoniker": "eHR.Test\\EmployeeExtensionTest.cs",
+              "ToolTip": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Test\\EmployeeExtensionTest.cs",
+              "RelativeToolTip": "eHR.Test\\EmployeeExtensionTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T09:56:54.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "eHR\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "eHR\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAUwE8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T09:59:19.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDao.cs",
+              "DocumentMoniker": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Dao\\EmployeeDao.cs",
+              "RelativeDocumentMoniker": "eHR.Dao\\EmployeeDao.cs",
+              "ToolTip": "C:\\Users\\cindy_hh_tsai\\Desktop\\eHR\\eHR.Dao\\EmployeeDao.cs",
+              "RelativeToolTip": "eHR.Dao\\EmployeeDao.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAWwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T10:01:40.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
