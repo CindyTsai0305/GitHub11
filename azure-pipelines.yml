@@ -1,0 +1,35 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo See https://aka.ms/yaml
+  displayName: 'Run a multi-line script'
+
+- script:
+    #curl 下載Unified Agent
+    echo Download Unified Agent
+    curl -LJO https://unified-agent.s3.amazonaws.com/wss-unified-agent.jar 
+
+    echo Start Scan The Job With WhiteSource
+    java -jar wss-unified-agent.jar -d $(Pipeline.Workspace)
+  displayName: 'Scan the WhiteSource Unified Agent'
+  env:
+    WS_APIKEY: '3ea1bfdc-6b9b-4661-97bb-0ed77dc4fbef'
+    WS_USERKEY: '7f922ab414954b43af8be2f1320ddf04d4fee332e6fe4f57ad88fe7e453c5d4f'
+    WS_WSS_URL: 'https://saas.whitesourcesoftware.com/agent'
+    WS_PRODUCTNAME: 0311_Test
+    WS_PROJECTNAME: cindy_test
+    WS_RESOLVEALLDEPENDENCIES: true
