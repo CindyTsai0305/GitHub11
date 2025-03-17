@@ -30,6 +30,6 @@ steps:
     WS_APIKEY: '3ea1bfdc-6b9b-4661-97bb-0ed77dc4fbef'
     WS_USERKEY: '7f922ab414954b43af8be2f1320ddf04d4fee332e6fe4f57ad88fe7e453c5d4f'
     WS_WSS_URL: 'https://saas.whitesourcesoftware.com/agent'
-    WS_PRODUCTNAME: 0311_Test
-    WS_PROJECTNAME: cindy_test
+    WS_PRODUCTNAME: '0311_Test'
+    WS_PROJECTNAME: 'cindy_test'
     WS_RESOLVEALLDEPENDENCIES: true
