@@ -19,7 +19,7 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- task: WhiteSource@21
+- task: whitesource.whiteSource-bolt-v2.bolt.wss.WhiteSource@21
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
-    projectName: '0318_test'
+    projectName: '0318_testttttt'
