@@ -1,0 +1,70 @@
+Last login: Tue May 13 14:30:37 on ttys001
+sean_ch_chen@sean-chen Mac_離線安裝PKM % sudo sh install_pkms.sh
+Password:
+開始離線安裝套件...
+處理各安裝包到 /opt ...
+安裝 CocoaPods 相關 gem 套件...
+Successfully installed zeitwerk-2.7.1
+1 gem installed
+ERROR:  Could not find a valid gem 'concurrent-ruby' (~> 1.0, >= 1.0.2) (required by 'activesupport-6.1.7.10.gem' (>= 0)) in any repository
+Successfully installed nap-1.1.0
+1 gem installed
+Successfully installed rexml-3.4.1
+1 gem installed
+Successfully installed cocoapods-downloader-1.6.3
+1 gem installed
+ERROR:  Could not find a valid gem 'public_suffix' (~> 4.0) (required by 'cocoapods-core-1.12.1.gem' (>= 0)) in any repository
+ERROR:  Could not find a valid gem 'colored2' (~> 3.1) (required by 'xcodeproj-1.27.0.gem' (>= 0)) in any repository
+Successfully installed nanaimo-0.4.0
+1 gem installed
+ERROR:  Could not find a valid gem 'addressable' (~> 2.8) (required by 'cocoapods-1.12.1.gem' (>= 0)) in any repository
+複製 maven 到 /opt/maven
+複製 go 到 /opt/go
+複製 gradle 到 /opt/gradle
+複製 node 到 /opt/node
+設定 ~/.zprofile 環境變數...
+========== Maven ==========
+The operation couldn’t be completed. Unable to locate a Java Runtime.
+Please visit http://www.java.com for information on installing Java.
+
+========== Go ==========
+go version go1.23.9 darwin/arm64
+========== Gradle ==========
+The operation couldn’t be completed. Unable to locate a Java Runtime.
+Please visit http://www.java.com for information on installing Java.
+
+========== Node.js ==========
+v20.19.1
+========== pip ==========
+pip 21.2.4 from /Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/site-packages/pip (python 3.9)
+========== CocoaPods ==========
+install_pkms.sh: line 77: pod: command not found
+sean_ch_chen@sean-chen Mac_離線安裝PKM % java -v
+The operation couldn’t be completed. Unable to locate a Java Runtime.
+Please visit http://www.java.com for information on installing Java.
+
+sean_ch_chen@sean-chen Mac_離線安裝PKM % pods -v
+zsh: command not found: pods
+sean_ch_chen@sean-chen Mac_離線安裝PKM % pod --version
+zsh: command not found: pod
+sean_ch_chen@sean-chen Mac_離線安裝PKM % ls *.gem
+zsh: no matches found: *.gem
+sean_ch_chen@sean-chen Mac_離線安裝PKM % ruby -v
+ruby 3.4.3 (2025-04-14 revision d0b7e5b6a0) +PRISM [arm64-darwin24]
+sean_ch_chen@sean-chen Mac_離線安裝PKM % gem fetch concurrent-ruby --version 1.0.5
+Fetching concurrent-ruby-1.0.5.gem
+Downloaded concurrent-ruby-1.0.5
+sean_ch_chen@sean-chen Mac_離線安裝PKM % gem fetch public_suffix --version "~>4.0"
+Fetching public_suffix-4.0.7.gem
+Downloaded public_suffix-4.0.7
+sean_ch_chen@sean-chen Mac_離線安裝PKM % java -v
+The operation couldn’t be completed. Unable to locate a Java Runtime.
+Please visit http://www.java.com for information on installing Java.
+
+sean_ch_chen@sean-chen Mac_離線安裝PKM % gem fetch colored2 --version "~>3.1"
+Fetching colored2-3.1.2.gem
+Downloaded colored2-3.1.2
+sean_ch_chen@sean-chen Mac_離線安裝PKM % gem fetch addressable --version "~>2.8"
+Fetching addressable-2.8.7.gem
+Downloaded addressable-2.8.7
+sean_ch_chen@sean-chen Mac_離線安裝PKM % 
