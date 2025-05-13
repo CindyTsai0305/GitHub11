@@ -1,5 +1,3 @@
-https://git.gss.com.tw/ismbd1/Mend/-/tree/main/14_Software/%E9%9B%A2%E7%B7%9APKM%E5%AE%89%E8%A3%9D/Mac
-
 #!/bin/bash
 
 echo "開始離線安裝套件..."
@@ -10,7 +8,7 @@ INSTALL_DIR="/opt"
 mkdir -p "$INSTALL_DIR"
 
 # ========== 解壓與安裝 ==========
-echo "解壓各安裝包到 $INSTALL_DIR ..."
+echo "處理各安裝包到 $INSTALL_DIR ..."
 
 #Cocoapods
 echo "安裝 CocoaPods 相關 gem 套件..."
@@ -33,13 +31,13 @@ cp -r "$PKM_DIR/maven" "$INSTALL_DIR/maven"
 echo "複製 go 到 $INSTALL_DIR/go"
 cp -r "$PKM_DIR/go" "$INSTALL_DIR/go"
 
-# Gradle (.zip)
+# Gradle
 echo "複製 gradle 到 $INSTALL_DIR/gradle"
 cp -r "$PKM_DIR/gradle" "$INSTALL_DIR/gradle"
 
-# Node.js (.tar.xz)
-tar -xvJf "$PKM_DIR/node-v20.19.1-darwin-arm64.tar.xz" -C "$INSTALL_DIR"
-mv "$INSTALL_DIR/node-v20.19.1-darwin-arm64" "$INSTALL_DIR/node"
+# Node.js
+echo "複製 node 到 $INSTALL_DIR/node"
+cp -r "$PKM_DIR/node" "$INSTALL_DIR/node"
 
 # Ruby
 tar -xvzf "$PKM_DIR/ruby-3.4.3.tar.gz" -C "$INSTALL_DIR"
@@ -49,7 +47,7 @@ mv "$INSTALL_DIR/ruby-3.4.3" "$INSTALL_DIR/ruby"
 unzip "$PKM_DIR/php.zip" -d "$INSTALL_DIR"
 mv "$INSTALL_DIR/php-8.4.6" "$INSTALL_DIR/php"
 
-# pip.pyz (Python 安裝用)
+# pip
 mkdir -p "$INSTALL_DIR/pip"
 cp "$PKM_DIR/pip.pyz" "$INSTALL_DIR/pip/pip"
 chmod +x "$INSTALL_DIR/pip/pip"
@@ -89,4 +87,3 @@ echo "========== pip =========="
 pip --version
 echo "========== CocoaPods =========="
 pod --version
-
