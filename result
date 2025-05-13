@@ -69,20 +69,19 @@ Fetching addressable-2.8.7.gem
 Downloaded addressable-2.8.7
 sean_ch_chen@sean-chen Mac_離線安裝PKM % 
 
-
-Last login: Tue May 13 16:13:20 on ttys002
-sean_ch_chen@sean-chen ruby-3.4.3 % ./configure \          
---prefix=/opt/ruby-3.4.3 \
---with-openssl-dir=/opt/homebrew/opt/openssl@3 \
---with-libyaml-dir=/opt/homebrew/opt/libyaml
-configure: WARNING: you should use --build, --host, --target
-configure: WARNING: invalid host type:  
-checking for ruby... /opt/homebrew/opt/ruby/bin/ruby
-tool/config.guess already exists
-tool/config.sub already exists
-checking build system type... config.sub: missing argument
-Try `config.sub --help' for more information.
-configure: error: /bin/sh ./tool/config.sub   failed
-zsh: no such file or directory: --prefix=/opt/ruby-3.4.3
-sean_ch_chen@sean-chen ruby-3.4.3 % 
+installing binary commands:         /opt/ruby-3.4.3/bin
+/Users/sean_ch_chen/Downloads/ruby-3.4.3/lib/fileutils.rb:400:in 'Dir.mkdir': Permission denied @ dir_s_mkdir - /opt/ruby-3.4.3 (Errno::EACCES)
+	from /Users/sean_ch_chen/Downloads/ruby-3.4.3/lib/fileutils.rb:400:in 'FileUtils#fu_mkdir'
+	from /Users/sean_ch_chen/Downloads/ruby-3.4.3/lib/fileutils.rb:381:in 'block (2 levels) in FileUtils#mkdir_p'
+	from /Users/sean_ch_chen/Downloads/ruby-3.4.3/lib/fileutils.rb:379:in 'Array#reverse_each'
+	from /Users/sean_ch_chen/Downloads/ruby-3.4.3/lib/fileutils.rb:379:in 'block in FileUtils#mkdir_p'
+	from /Users/sean_ch_chen/Downloads/ruby-3.4.3/lib/fileutils.rb:371:in 'Array#each'
+	from /Users/sean_ch_chen/Downloads/ruby-3.4.3/lib/fileutils.rb:371:in 'FileUtils#mkdir_p'
+	from ./tool/rbinstall.rb:238:in 'Object#makedirs'
+	from ./tool/rbinstall.rb:351:in 'Object#prepare'
+	from ./tool/rbinstall.rb:845:in 'block in <main>'
+	from ./tool/rbinstall.rb:1218:in 'block in <main>'
+	from ./tool/rbinstall.rb:1215:in 'Array#each'
+	from ./tool/rbinstall.rb:1215:in '<main>'
+make: *** [do-install-all] Error 1
 
