@@ -1,0 +1,118 @@
+#!/bin/bash
+
+# ========== 前置檢查 ==========
+if [ "$(id -u)" -ne 0 ]; then
+    echo "請用 sudo 權限執行此腳本：sudo ./install_pkms.sh"
+    exit 1
+fi
+
+echo "開始離線安裝套件..."
+
+PKM_DIR=$(pwd)/pkm
+INSTALL_DIR="/opt"
+
+mkdir -p "$INSTALL_DIR"
+
+# ========== 離線安裝 gem 依賴（for CocoaPods） ==========
+echo "安裝 CocoaPods 相關 gem 套件..."
+cd "$PKM_DIR"
+gem install --local zeitwerk-2.7.1.
+
+gem
+gem install --local activesupport-6.1.7.10.
+
+gem
+gem install --local nap-1.1.0.
+
+gem
+gem install --local rexml-3.4.1.
+
+gem
+gem install --local cocoapods-downloader-1.6.3.
+
+gem
+gem install --local cocoapods-core-1.12.1.
+
+gem
+gem install --local xcodeproj-1.27.0.
+
+gem
+gem install --local nanaimo-0.4.0.
+
+gem
+gem install --local cocoapods-1.12.1.
+
+gem
+
+# ========== 解壓與安裝 ==========
+echo "解壓各安裝包到 $INSTALL_DIR ..."
+
+# Maven
+tar -xvzf "$PKM_DIR/apache-maven-3.9.9-bin.tar.gz" -C "$INSTALL_DIR"
+mv "$INSTALL_DIR/apache-maven-3.9.9" "$INSTALL_DIR/maven"
+
+# Go
+tar -xvzf "$PKM_DIR/go1.23.9.darwin-arm64.tar.gz" -C "$INSTALL_DIR"
+mv "$INSTALL_DIR/go" "$INSTALL_DIR/go"  # 已是 go
+
+# Gradle (.zip)
+unzip "$PKM_DIR/gradle-8.12.1-bin.zip" -d "$INSTALL_DIR"
+mv "$INSTALL_DIR/gradle-8.12.1" "$INSTALL_DIR/gradle"
+
+# Node.js (.tar.xz)
+tar -xvJf "$PKM_DIR/node-v20.19.1-darwin-arm64.tar.xz" -C "$INSTALL_DIR"
+mv "$INSTALL_DIR/node-v20.19.1-darwin-arm64" "$INSTALL_DIR/node"
+
+# Ruby
+tar -xvzf "$PKM_DIR/ruby-3.4.3.tar.gz" -C "$INSTALL_DIR"
+mv "$INSTALL_DIR/ruby-3.4.3" "$INSTALL_DIR/ruby"
+
+# PHP (.zip)
+unzip "$PKM_DIR/php.zip" -d "$INSTALL_DIR"
+mv "$INSTALL_DIR/php-8.4.6" "$INSTALL_DIR/php"
+
+# pip.pyz (Python 安裝用)
+mkdir -p "$INSTALL_DIR/pip"
+cp "$PKM_DIR/pip.pyz" "$INSTALL_DIR/pip/pip"
+chmod +x "$INSTALL_DIR/pip/pip"
+ln -sf "$INSTALL_DIR/pip/pip" /usr/local/bin/pip
+
+# ========== 設定環境變數 ==========
+echo "設定 ~/.zprofile 環境變數..."
+
+cat <<EOL >> ~/.zprofile
+# ==== 離線安裝 PKM ====
+export MAVEN_HOME=$INSTALL_DIR/maven
+export GOROOT=$INSTALL_DIR/go
+export GRADLE_HOME=$INSTALL_DIR/gradle
+export NODE_HOME=$INSTALL_DIR/node
+export RUBY_HOME=$INSTALL_DIR/ruby
+export PHP_HOME=$INSTALL_DIR/php
+export PIP_HOME=$INSTALL_DIR/pip
+
+export PATH=\$MAVEN_HOME/bin:\$GOROOT/bin:\$GRADLE_HOME/bin:\$NODE_HOME/bin:\$RUBY_HOME/bin:\$PHP_HOME/bin:\$PIP_HOME:\$PATH
+# gem 安裝的執行檔（如 pod）
+export PATH="\$(gem environment gemdir)/bin:\$PATH"
+EOL
+
+source ~/.zprofile
+
+# ========== 驗證安裝 ==========
+echo "驗證各工具版本："
+
+echo "========== Maven =========="
+mvn -v
+echo "========== Go =========="
+go version
+echo "========== Gradle =========="
+gradle -v
+echo "========== Node.js =========="
+node -v
+echo "========== Ruby =========="
+ruby -v
+echo "========== PHP =========="
+php -v
+echo "========== pip =========="
+pip --version
+echo "========== CocoaPods =========="
+pod --version
