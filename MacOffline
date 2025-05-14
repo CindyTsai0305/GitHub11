@@ -43,11 +43,24 @@ cp -r "$PKM_DIR/gradle" "$INSTALL_DIR/gradle"
 echo "複製 node 到 $INSTALL_DIR/node"
 cp -r "$PKM_DIR/node" "$INSTALL_DIR/node"
 
+#Python
+echo "安裝 Python..."
+sudo installer -pkg "$PKM_DIR/python-3.13.3.pkg" -target /
+
 # pip
 mkdir -p "$INSTALL_DIR/pip"
 cp "$PKM_DIR/pip.pyz" "$INSTALL_DIR/pip/pip"
 chmod +x "$INSTALL_DIR/pip/pip"
 ln -sf "$INSTALL_DIR/pip/pip" /usr/local/bin/pip
+
+# Ruby
+echo "安裝 Ruby 到 $INSTALL_DIR/ruby"
+cp -r "$PKM_DIR/ruby" "$INSTALL_DIR/ruby"
+
+# Dotnet(Nuget)
+echo "安裝 Dotnet(Nuget)..."
+sudo installer -pkg "$PKM_DIR/dotnet-sdk-8.0.408-osx-arm64.pkg" -target /
+
 
 # ========== 設定環境變數 ==========
 echo "設定 ~/.zprofile 環境變數..."
@@ -75,7 +88,13 @@ echo "========== Gradle =========="
 gradle -v
 echo "========== Node.js =========="
 node -v
-echo "========== pip =========="
+echo "========== Python =========="
+python --version
+echo "========== Pip =========="
 pip3 --version
+echo "========== Ruby =========="
+ruby -v
+echo "========== Nuget =========="
+nuget -v
 echo "========== CocoaPods =========="
 pod --version
