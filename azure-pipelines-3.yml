@@ -1,19 +1,32 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
+schedules:
+  - cron: '0 3 * * *'
+    displayName: 'Every day at 3am (UTC)'
+    branches:
+      include: [main]
+    always: true
 
-trigger:
-- master
+trigger: none
 
 pool:
-  name: default
+  vmImage: GSS
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+  - task: npmAuthenticate@0
+    inputs:
+      workingFile: .npmrc
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  - bash: |
+      add-apt-repository ppa:git-core/ppa
+      apt update && apt install git -y
+    displayName: 'Install latest version of Git'
+
+  - bash: |
+      git config --global user.email 'bot@renovateapp.com'
+      git config --global user.name 'Renovate Bot'
+      npx --userconfig .npmrc renovate
+    env:
+      RENOVATE_PLATFORM: azure
+      RENOVATE_ENDPOINT: $(System.CollectionUri)
+      RENOVATE_CONFIG_FILE: $(Build.SourcesDirectory)/renovate_bot_config.json
+      RENOVATE_TOKEN: $(System.AccessToken)
+      LOG_LEVEL: debug
